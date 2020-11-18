@@ -1,0 +1,9 @@
+{
+  "name": "typescript-music",
+  "version": "1.0.0",
+  "description": "A boilerplate for my music projects, and an attempt to learn TypeScript.",
+  "main": "index.js",
+  "repository": "https://github.com/adamgiese/typescript-music.git",
+  "author": "adam.giese@gmail.com",
+  "license": "MIT"
+}
