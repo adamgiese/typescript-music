@@ -18,3 +18,15 @@ interface Event {
 ```
 
 _Note: Events can be used to connect to ToneJS via the [schedule](https://tonejs.github.io/docs/14.7.58/Transport#schedule) method on the Transport._
+
+# Helper Functions
+
+## scheduleEvents
+
+```
+function scheduleEvents(events: Event[], Transport): void {...}
+```
+
+The scheduleEvents function takes an array of Events and a ToneJS transport. It will schedule each of the events on the Transport.
+
+_Note: `scheduleEvents` is used exclusively for it's side effect of scheduling the transport. It returns no value._
