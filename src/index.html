@@ -1,6 +1,24 @@
 <!-- index.html -->
 <html>
-<body>
-  <script src="./main.ts"></script>
-</body>
+  <head>
+    <style>
+      .tonejs-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+      }
+      .tonejs-controls button {
+        margin: 0 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tonejs-controls">
+      <button id='play'>Play</button>
+      <button id='pause'>Pause</button>
+      <button id='stop'>Stop</button>
+    </div>
+    <script src="./main.ts"></script>
+  </body>
 </html>
