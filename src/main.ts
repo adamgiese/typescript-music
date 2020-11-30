@@ -17,5 +17,5 @@ document.querySelector('#pause').addEventListener('click', () => {
 })
 
 document.querySelector('#stop').addEventListener('click', () => {
-  Tone.Transport.pause()
+  Tone.Transport.stop()
 })
